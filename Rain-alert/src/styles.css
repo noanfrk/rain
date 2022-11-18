@@ -36,7 +36,12 @@ body {
 }
 
 .logo H1 {
-    position: absolute;
-    z-index: 10;
-    
+position: absolute;
+z-index: 10;
+left: 37.73%;
+right: 4.76%;
+top: 30.43%;
+bottom: 15.22%;
+font-size: 32px;
+line-height: 38px;
 }
