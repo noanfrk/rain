@@ -26,7 +26,11 @@ body {
 }
 
 .logo img {
-  margin-top: -100%;
+
+  position: absolute;
+  margin-top: -150%;
+  margin-left: 5%;
+align-items: center;
   z-index: 10;
   width: 100px;
   height: 100px;
