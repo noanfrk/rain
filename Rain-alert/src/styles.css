@@ -21,7 +21,6 @@ body {
   z-index: -10;
   width: 428px;
   height: 926px;
-  background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
   overflow: hidden;
 }
 
@@ -29,9 +28,15 @@ body {
 
   position: absolute;
   margin-top: -150%;
-  margin-left: 5%;
-align-items: center;
+  margin-left: 10%;
+  align-items: center;
   z-index: 10;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
+}
+
+.logo H1 {
+    position: absolute;
+    z-index: 10;
+    
 }
