@@ -16,12 +16,14 @@ body {
   height: 675px;
 }
 
-/* /////////////////////////Page d'acceil///////////////////////// */
+/* /////////////////////////WELCOME PAGE///////////////////////// */
 
 div.welcome {
-  width: 100vh;
+  width: 150%;
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1515890922410-ae767899d6b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNsb3VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-image: url(../images/bgc\ rain\ alert.jpg);
+  background-size: cover;
+  overflow: hidden;
 }
 
 /* /////////////////////////LOGO///////////////////////// */
@@ -32,7 +34,7 @@ img.logo {
   justify-content: center;
 }
 div.logo {
-  color: #ffffff;
+  color: #000000;
   font-family: sans-serif;
   text-align: center;
 }
@@ -42,11 +44,12 @@ section.wrap {
   width: 100%;
   display: flex;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 div.text-logo {
   height: 45%;
   font-size: 0.7rem;
-  text-decoration: underline 1px solid;
   vertical-align: center;
 }
