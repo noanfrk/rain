@@ -19,11 +19,10 @@ body {
 /* /////////////////////////WELCOME PAGE///////////////////////// */
 
 div.welcome {
-  width: 150%;
+  width: 42vh;
   height: 100vh;
   background-image: url(../images/bgc\ rain\ alert.jpg);
   background-size: cover;
-  overflow: hidden;
 }
 
 /* /////////////////////////LOGO///////////////////////// */
@@ -34,22 +33,24 @@ img.logo {
   justify-content: center;
 }
 div.logo {
-  color: #000000;
+  color: #ffffff;
   font-family: sans-serif;
-  text-align: center;
 }
 
 section.wrap {
+  position: absolute;
+  top: 40%;
   height: 100%;
   width: 100%;
   display: flex;
   gap: 20px;
-  align-items: center;
-  justify-content: center;
+  margin-left: 10%;
 }
 
 div.text-logo {
   height: 45%;
   font-size: 0.7rem;
-  vertical-align: center;
+}
+.title {
+  margin-top: 20px;
 }
