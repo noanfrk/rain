@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Mono:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Mono:ital,wght@0,300;0,400;1,600&display=swap");
 /* /////////////////////////RESET///////////////////////// */
 
 *,
@@ -65,7 +67,22 @@ div.text-logo {
   margin-top: -100vh;
 }
 
-.deux .rectanglebas{
-  margin-left: 425px;
+.rectanglebas{
+
   margin-top: 100%;
+}
+
+
+/* ///////////////////////////////NAV/////////////////////////*/
+
+nav.nav-main a.nav-links {
+  text-decoration: none;
+  color: #51ff00;
+  font-family: "Lato", sans-serif;
+  margin-right: 5px;
+  border-right: 1px ;
+  padding-right: 3px;
+  letter-spacing: 1.5px;
+  margin-left: 17%;
+  margin-top: 200%;
 }
