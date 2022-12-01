@@ -60,29 +60,31 @@ div.text-logo {
 /* /////////////////////////Page Graphique///////////////////////// */
 
 .deux{
+
   margin-left: 425px;
   height: 100vh;
   width: 46vh;
   background-color: #000;
-  margin-top: -100vh;
-}
-
-.rectanglebas{
-
-  margin-top: 100%;
+  margin-top: -200vh;
 }
 
 
-/* ///////////////////////////////NAV/////////////////////////*/
 
-nav.nav-main a.nav-links {
+
+/* ///////////////////////////////NAV page graphique/////////////////////////*/
+
+.lanav {
   text-decoration: none;
   color: #51ff00;
   font-family: "Lato", sans-serif;
   margin-right: 5px;
   border-right: 1px ;
   padding-right: 3px;
-  letter-spacing: 1.5px;
-  margin-left: 17%;
-  margin-top: 200%;
+  letter-spacing: 1.7px;
+  padding-left: 25%;
+  padding-top: 420%;
 }
+
+
+
+/* /////////////////////////////CARTE////////////////////////////////////////////*/
