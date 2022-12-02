@@ -14,15 +14,15 @@
 
 body {
   overflow: hidden;
-  width: 320px;
-  height: 675px;
+  width: 100vh;
+  height: 100vh;
 }
 
 /* /////////////////////////WELCOME PAGE///////////////////////// */
 
-div.welcome {
-  width: 46vh;
-  height: 100vh;
+section.welcome {
+  width: 30%;
+  height: 60%;
   background-image: url(../images/bgc\ rain\ alert.jpg);
   background-size: cover;
 }
@@ -45,8 +45,9 @@ section.wrap {
   height: 100%;
   width: 100%;
   display: flex;
-  gap: 20px;
-  margin-left: 10%;
+  gap: 10px;
+  left: 0px;
+  margin-top: -35%;
 }
 
 div.text-logo {
@@ -57,34 +58,19 @@ div.text-logo {
   margin-top: 20px;
 }
 
-/* /////////////////////////Page Graphique///////////////////////// */
-
-.deux{
-
-  margin-left: 425px;
-  height: 100vh;
-  width: 46vh;
-  background-color: #000;
-  margin-top: -200vh;
-}
-
-
-
-
-/* ///////////////////////////////NAV page graphique/////////////////////////*/
-
-.lanav {
-  text-decoration: none;
-  color: #51ff00;
-  font-family: "Lato", sans-serif;
-  margin-right: 5px;
-  border-right: 1px ;
-  padding-right: 3px;
-  letter-spacing: 1.7px;
-  padding-left: 25%;
-  padding-top: 420%;
-}
 
 
 
 /* /////////////////////////////CARTE////////////////////////////////////////////*/
+.trois{
+  height: 60%;
+  width: 30%;
+  background: linear-gradient(180deg, #001D84 0%, #005F84 100%);
+}
+
+
+/* //////////////////////////////////MAPS////////////////////////////////////////*/
+
+.maps{
+
+}
